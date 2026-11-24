@@ -1,0 +1,90 @@
+body {
+  background-color: #0d1117; 
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px; 
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+}
+
+h1 {
+  text-align: center;
+  color: #58a6ff; /* Bright blue accent */
+  margin-top: 0;
+}
+
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #30363d;
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+#add-btn {
+  background-color: #1f6feb;
+  border: 1px solid #58a6ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#add-btn:hover {
+  background-color: #388bfd;
+}
+
+
+.summary-bar {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #30363d;
+}
+
+.summary-bar select {
+  width: auto;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #58a6ff;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.delete-btn {
+  width: auto;
+  padding: 5px 10px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  background-color: #21262d;
+  border: 1px solid #f85149;
+  color: #f85149;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #f85149;
+  color: #ffffff;
+}
